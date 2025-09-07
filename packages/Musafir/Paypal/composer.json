@@ -1,0 +1,25 @@
+{
+    "name": "musafiryatra/laravel-paypal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@Musafir.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Musafir\\Paypal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musafir\\Paypal\\Providers\\PaypalServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

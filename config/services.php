@@ -40,12 +40,12 @@ return [
 
         'fixer' => [
             'key'   => env('FIXER_API_KEY'),
-            'class' => 'Webkul\Core\Helpers\Exchange\FixerExchange',
+            'class' => 'Musafir\Core\Helpers\Exchange\FixerExchange',
         ],
 
         'exchange_rates' => [
             'key'   => env('EXCHANGE_RATES_API_KEY'),
-            'class' => 'Webkul\Core\Helpers\Exchange\ExchangeRates',
+            'class' => 'Musafir\Core\Helpers\Exchange\ExchangeRates',
             'url'   => env('EXCHANGE_RATES_API_ENDPOINT'),
         ],
     ],

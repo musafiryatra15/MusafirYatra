@@ -1,0 +1,28 @@
+{
+    "name": "musafiryatra/laravel-cart-rule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@Musafir.com"
+        }
+    ],
+    "require": {
+        "musafiryatra/laravel-core": "dev-master",
+        "musafiryatra/laravel-rule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Musafir\\CartRule\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musafir\\CartRule\\Providers\\CartRuleServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,27 @@
+{
+    "name": "musafiryatra/laravel-user",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@Musafir.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Musafir\\User\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musafir\\User\\Providers\\UserServiceProvider"
+            ],
+            "aliases": {
+                "Bouncer": "Musafir\\User\\Facades\\Bouncer"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}

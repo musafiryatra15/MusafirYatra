@@ -1,0 +1,28 @@
+{
+    "name": "musafiryatra/laravel-catalog-rule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Singh",
+            "email": "jitendra@Musafir.com"
+        }
+    ],
+    "require": {
+        "musafiryatra/laravel-core": "dev-master",
+        "musafiryatra/laravel-rule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Musafir\\CatalogRule\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musafir\\CatalogRule\\Providers\\CatalogRuleServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

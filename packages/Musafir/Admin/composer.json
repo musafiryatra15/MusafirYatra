@@ -1,0 +1,26 @@
+{
+    "name": "musafiryatra/laravel-admin",
+    "license": "MIT",
+    "description" : "Admin package",
+    "authors": [
+        {
+            "name": "MusafirYatra",
+            "email": "support@musafiryatra.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Musafir\\Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musafir\\Admin\\Providers\\AdminServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

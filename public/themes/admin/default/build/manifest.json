@@ -268,9 +268,9 @@
     "src": "src/Resources/assets/css/app.css",
     "isEntry": true
   },
-  "src/Resources/assets/fonts/bagisto-admin.woff": {
-    "file": "assets/bagisto-admin-BzOkv6lg.woff",
-    "src": "src/Resources/assets/fonts/bagisto-admin.woff"
+  "src/Resources/assets/fonts/musafiryatra-admin.woff": {
+    "file": "assets/musafiryatra-admin-BzOkv6lg.woff",
+    "src": "src/Resources/assets/fonts/musafiryatra-admin.woff"
   },
   "src/Resources/assets/images/average-orders.svg": {
     "file": "assets/average-orders-UpY6pgyW.svg",

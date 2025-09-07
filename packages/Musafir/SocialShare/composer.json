@@ -1,0 +1,25 @@
+{
+    "name": "musafiryatra/laravel-social-share",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MusafirYatra",
+            "email": "support@musafiryatra.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Musafir\\SocialShare\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musafir\\SocialShare\\Providers\\SocialShareServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

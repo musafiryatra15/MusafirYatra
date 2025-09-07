@@ -1,0 +1,24 @@
+{
+    "name": "musafiryatra/laravel-checkout",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MusafirYatra",
+            "email": "support@musafiryatra.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Musafir\\Checkout\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musafir\\Checkout\\Providers\\CheckoutServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}

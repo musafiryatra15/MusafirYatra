@@ -144,7 +144,7 @@ return [
         ],
 
         'repositories' => [
-            'Webkul\Core\Repositories\CoreConfigRepository' => [
+            'Musafir\Core\Repositories\CoreConfigRepository' => [
                 'enabled' => true,
 
                 // 'minutes'    => 10080,
@@ -166,23 +166,23 @@ return [
                 // ],
             ],
 
-            'Webkul\Core\Repositories\ChannelRepository' => [
+            'Musafir\Core\Repositories\ChannelRepository' => [
                 'enabled' => true,
             ],
 
-            'Webkul\Core\Repositories\CountryRepository' => [
+            'Musafir\Core\Repositories\CountryRepository' => [
                 'enabled' => true,
             ],
 
-            'Webkul\Core\Repositories\CountryStateRepository' => [
+            'Musafir\Core\Repositories\CountryStateRepository' => [
                 'enabled' => true,
             ],
 
-            'Webkul\Core\Repositories\CurrencyRepository' => [
+            'Musafir\Core\Repositories\CurrencyRepository' => [
                 'enabled' => true,
             ],
 
-            'Webkul\Core\Repositories\LocaleRepository' => [
+            'Musafir\Core\Repositories\LocaleRepository' => [
                 'enabled' => true,
             ],
         ],

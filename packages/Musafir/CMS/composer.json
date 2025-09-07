@@ -1,0 +1,25 @@
+{
+    "name": "musafiryatra/laravel-cms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MusafirYatra",
+            "email": "support@musafiryatra.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Musafir\\CMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Musafir\\CMS\\Providers\\CMSServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

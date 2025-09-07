@@ -67,12 +67,12 @@ return [
     'providers' => [
         'customers' => [
             'driver' => 'eloquent',
-            'model'  => Webkul\Customer\Models\Customer::class,
+            'model'  => Musafir\Customer\Models\Customer::class,
         ],
 
         'admins' => [
             'driver' => 'eloquent',
-            'model'  => Webkul\User\Models\Admin::class,
+            'model'  => Musafir\User\Models\Admin::class,
         ],
     ],
 

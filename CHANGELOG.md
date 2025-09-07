@@ -100,11 +100,11 @@ This changelog consists of the bug & security fixes and new features being inclu
 
 **Booking Product**
 
-* Integrated the Booking Product module into the core of Bagisto, allowing native support for booking-based products.
+* Integrated the Booking Product module into the core of MusafirYatra, allowing native support for booking-based products.
 
 **GDPR Compliance Features**
 
-* Integrated GDPR compliance functionalities into the core of Bagisto, enabling users to manage data protection requests and cookie consent preferences directly within the platform.
+* Integrated GDPR compliance functionalities into the core of MusafirYatra, enabling users to manage data protection requests and cookie consent preferences directly within the platform.
 
 **Canadian Locale Support**
 
@@ -156,7 +156,7 @@ This changelog consists of the bug & security fixes and new features being inclu
 
 * #10489 [fixed] - Product in Cart Appears for User Despite Being Out of Stock. If the Product is already added in the Cart by the user.
 
-* #10566 [fixed] - Wishlist Price Display Issue with Currency Exchange in Bagisto.
+* #10566 [fixed] - Wishlist Price Display Issue with Currency Exchange in MusafirYatra.
 
 * #10587 [fixed] - Add character Validation in GDPR Agreement Checkbox Label.
 
