@@ -18,7 +18,7 @@
         "ext-pdo_mysql": "*",
         "ext-tokenizer": "*",
         "astrotomic/laravel-translatable": "^11.0.0",
-        "musafiryatra/image-cache": "dev-master",
+        "bagisto/image-cache": "dev-master",
         "barryvdh/laravel-dompdf": "^2.0.0",
         "diglactic/laravel-breadcrumbs": "^9.0",
         "elasticsearch/elasticsearch": "^8.10",
@@ -47,7 +47,7 @@
         "spatie/laravel-sitemap": "^7.3"
     },
     "require-dev": {
-        "musafiryatra/laravel-datafaker": "2.2.*",
+        "bagisto/laravel-datafaker": "2.2.*",
         "barryvdh/laravel-debugbar": "^3.8",
         "fakerphp/faker": "^1.23",
         "laravel/pint": "^1.19",
@@ -144,9 +144,5 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "support": {
-        "issues": "https://github.com/musafiryatra/musafiryatra/issues",
-        "forum": "https://forums.musafiryatra.com",
-        "source": "https://github.com/musafiryatra/musafiryatra",
-        "docs": "https://devdocs.musafiryatra.com"
     }
 }
